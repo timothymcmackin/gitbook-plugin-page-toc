@@ -50,7 +50,6 @@ require(['gitbook'], function(gitbook) {
         anchors.add(selector);
 
         var showToc = document.body.querySelector('.showToc');
-        console.log(showToc);var showToc = document.body.querySelector('.showToc');
         var hideToc = document.body.querySelector('.hideToc');
 
         if (anchors.elements.length > 1 && (showByDefault || showToc != null) && hi
