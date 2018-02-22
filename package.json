@@ -1,6 +1,6 @@
 {
-  "name": "gitbook-plugin-page-toc",
-  "description": "Adds table of conents and anchors inside page",
+  "name": "gitbook-plugin-page-toc-optional",
+  "description": "Adds table of conents and anchors inside page when you add a tag to the page",
   "main": "index.js",
   "version": "1.0.2",
   "engines": {
@@ -30,11 +30,11 @@
     "anchorjs",
     "toc"
   ],
-  "author": "Leo Liang <leo.liang@gmail.com>",
+  "author": "Tim McMackin <timothymcmackin@yahoo.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aleung/gitbook-plugin-page-toc.git"
+    "url": "https://github.com/timothymcmackin/gitbook-plugin-page-toc-optional.git"
   },
-  "homepage": "https://github.com/aleung/gitbook-plugin-page-toc"
+  "homepage": "https://github.com/timothymcmackin/gitbook-plugin-page-toc-optional.git"
 }
