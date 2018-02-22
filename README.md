@@ -22,9 +22,9 @@ Add the plugin to your `book.json`:
 
 ## Use
 
-To show a TOC in one of your pages, either set the `showByDefault` parameter to `true` in your `book.json`, or add a tag to an individual page with the class "showToc", like this: `<div class="showToc"/>`.
+To show a TOC in one of your pages, either set the `showByDefault` parameter to `true` in your `book.json`, or add a tag to an individual page with the class "showToc", like this: `<div class="showToc"></div>`.
 
-If you have the `showByDefault` parameter set to `true` and you want to hide the TOC on a page, add a tag with the class "hideToc", like this: `<div class="hideToc"/>`.
+If you have the `showByDefault` parameter set to `true` and you want to hide the TOC on a page, add a tag with the class "hideToc", like this: `<div class="showToc"></div>`.
 
 The page-specific tags override the `showByDefault` parameter.
 
