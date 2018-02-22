@@ -26,6 +26,10 @@ To show a TOC in one of your pages, either set the `showByDefault` parameter to 
 
 If you have the `showByDefault` parameter set to `true` and you want to hide the TOC on a page, add a tag with the class "hideToc", like this: `<div class="showToc"></div>`.
 
+Tip: When I put `<div class="showToc"/>` on a line by itself, such as one the second line, just after the page title, Gitbook wraps the entire page within that div.
+This doesn't happen if I use the full tag, like this: `<div class="showToc"></div>`.
+However, it seems to be OK to use the closed tag at the end of another line, such as at the end of the H1 at the top of the page.
+
 The page-specific tags override the `showByDefault` parameter.
 
 ## Configuration
