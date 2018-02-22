@@ -48,6 +48,9 @@ require(['gitbook'], function(gitbook) {
         anchors.removeAll();
         anchors.add(selector);
 
+        var showToc = document.body.querySelector('.showToc');
+        console.log(showToc);
+
         if (anchors.elements.length > 1) {
             var text, href, currentLevel;
             var prevLevel = 0;
@@ -75,4 +78,3 @@ require(['gitbook'], function(gitbook) {
     })
 
 });
-
