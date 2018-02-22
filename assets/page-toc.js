@@ -52,8 +52,7 @@ require(['gitbook'], function(gitbook) {
         var showToc = document.body.querySelector('.showToc');
         var hideToc = document.body.querySelector('.hideToc');
 
-        if (anchors.elements.length > 1 && (showByDefault || showToc != null) && hi
-deToc == null) {
+        if (anchors.elements.length > 1 && (showByDefault || showToc != null) && hideToc == null) {
             var text, href, currentLevel;
             var prevLevel = 0;
             var nav = document.createElement('nav');
