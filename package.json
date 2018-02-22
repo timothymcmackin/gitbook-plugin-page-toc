@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-page-toc-optional",
   "description": "Adds table of conents and anchors inside page when you add a tag to the page",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "gitbook": "3.*"
   },

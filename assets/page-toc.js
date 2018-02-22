@@ -8,9 +8,9 @@ require(['gitbook'], function(gitbook) {
     }
 
     gitbook.events.bind('start', function(e, config) {
-        selector = config['page-toc'].selector;
-        position = config['page-toc'].position;
-        showByDefault = config['page-toc'].showByDefault;
+        selector = config['page-toc-optional'].selector;
+        position = config['page-toc-optional'].position;
+        showByDefault = config['page-toc-optional'].showByDefault;
     });
 
     gitbook.events.bind('page.change', function() {
