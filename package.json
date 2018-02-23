@@ -41,8 +41,5 @@
     "type": "git",
     "url": "https://github.com/timothymcmackin/gitbook-plugin-page-toc-optional.git"
   },
-  "homepage": "https://github.com/timothymcmackin/gitbook-plugin-page-toc-optional.git",
-  "dependencies": {
-    "front-matter": "^2.3.0"
-  }
+  "homepage": "https://github.com/timothymcmackin/gitbook-plugin-page-toc-optional.git"
 }
